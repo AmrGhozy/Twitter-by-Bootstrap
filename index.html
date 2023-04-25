@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="imges/OIP.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body class="bg-main overflow-hidden">
+    <div class="container">
+        <div class="row">
+            <!-- Left -->
+            <ul class="nav vh-100 flex-column align-items-end align-items-lg-start gap-2 col-lg-2 col-sm-2 col-2 sticky-top">
+                <li class="nav-item ">
+                    <a class="nav-link px-2 fs-5 text-center text-lg-start text-light" href="#">
+                        <i class="fs-1 fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex justify-content-lg-start justify-content-center gap-3 nav-link active text-light" aria-current="page" href="#">
+                        <i class="fs-5 fa-solid fa-house"></i>
+                        <span class="d-none d-lg-inline" >
+                            Home
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex  justify-content-lg-start justify-content-center gap-3 nav-link text-light" href="#">
+                        <i class="fs-5 fa-solid fa-hashtag"></i>
+                        <span class="d-none d-lg-inline" >
+                            Explor
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex justify-content-center justify-content-lg-start gap-3 nav-link text-light" href="#">
+                        <i class="fs-5 fa-solid fa-bell"></i>
+                        <span class="d-none d-lg-inline" >
+                            Netfication
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="d-flex justify-content-center justify-content-lg-start gap-3 nav-link text-light">
+                        <i class="fs-5 fa-solid fa-envelope"></i>
+                        <span class="d-none d-lg-inline" >
+                            Messages
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex justify-content-center justify-content-lg-start gap-3 nav-link text-light" aria-current="page" href="#">
+                        <i class="fs-5 fa-solid fa-bookmark"></i>
+                        <span class="d-none d-lg-inline" >
+                            Bookmarks
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex justify-content-center justify-content-lg-start gap-3 nav-link text-light" href="#">
+                        <i class="fs-5 fa-solid fa-list"></i>
+                        <span class="d-none d-lg-inline" >
+                            List
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex justify-content-center justify-content-lg-start gap-3 nav-link text-light" href="#">
+                        <i class="fs-5 fa-solid fa-user"></i>
+                        <span class="d-none d-lg-inline" >
+                            Profile
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="d-flex justify-content-center justify-content-lg-start gap-3 nav-link text-light">
+                        <i class="fs-5 fa-solid fa-ellipsis"></i>
+                        <span class="d-none d-lg-inline" >
+                            More
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="d-lg-none d-inline btn rounded-circle p-2 text-light bg-primary bg-gradient">
+                        <i class="fa-solid fa-pen fs-4"></i>
+                    </a>
+                    <a class="btn d-lg-inline d-none mt-4 rounded-pill p-2 w-100 text-light bg-primary bg-gradient">
+                        <span class="px-5">Tweet</span>
+                    </a>
+                </li>
+                <li class="position-absolute bottom-0 start-lg-0 mb-3 d-flex align-items-center gap-1">
+                    <img src="imges/team-1.png" class="img-fluid rounded-circle" alt="">
+                    <div class="text">
+                        <h6 class="d-lg-block d-none text-light m-0">Amr Ghozy</h6>
+                        <p class="d-lg-block d-none text-white-50 m-0 fs-6">@amrgo631</p>
+                    </div>
+                    <i class="d-lg-block d-none fa-solid fa-angle-down text-light"></i>
+                </li>
+            </ul>
+
+            <!-- center -->
+            <main class="col-lg-6 col-sm-10 col-10 border-end-0 overflow-auto vh-100 p-0 border border-dark-subtle border-bottom-0">
+                <div class="head bg-main sticky-top d-flex p-3 border-bottom border-dark-subtle justify-content-between align-items-center">
+                    <span class="text-light">Home</span>
+                    <i class="fa-brands fa-twitter text-light fs-5"></i>
+                </div>
+                <div class="write p-3">
+                    <img src="imges/team-1.png" class="img-fluid rounded-circle " alt="">
+                    <input type="text" class="text-light col-9 bg-transparent border-0 " placeholder="What's happening ?">
+                </div>
+                <div class="d-flex py-5 px-4 mt-4 align-items-center border-bottom ">
+                    <div class="icons col text-color d-flex gap-3 fs-5">
+                        <i class="fa-solid fa-image"></i>
+                        <i class="fa-brands fa-git"></i>
+                        <i class="fa-solid fa-file-lines"></i>
+                        <i class="fa-solid fa-face-smile"></i>
+                        <i class="fa-solid fa-bookmark"></i>
+                    </div>
+                    <a class="d-lg-none d-inline btn rounded-circle p-2 text-light bg-primary bg-gradient">
+                        <i class="fa-solid fa-pen fs-4"></i>
+                    </a>
+                    <a class="btn d-lg-inline d-none rounded-pill p-2 text-light bg-primary bg-gradient">
+                        <span class="px-5">Tweet</span>
+                    </a>
+                </div>
+                <a href="#" class="btn text-color text-center d-block p-3 border-top border-bottom rounded-0">Show 9 Tweet</a>
+                <div class="d-lg-flx gap-2 p-3 border-top">
+                    <img src="imges/team-1.png" class="img-fluid rounded-circle " alt="">
+                    <h5 class="d-inline text-light m-0 mb-3">
+                        Amr Ghozy
+                        <span class="text-white-50 fs-6">@amrgo631 . Now 2</span>
+                    </h5>
+                    <div class="mt-2">
+                        <h6 class="text-light lh-base">Any foo; cam write code that a computer can understand. good
+                            <br>
+                            Programmers write code that humans can understand.
+                            <br>
+                            <br>
+                            <span class="mb-2">Experience is the name everyone gives to their <span class="text-color">#mastakes</span></span>
+                            <br>
+                            <br>
+                            Simplicity is the soul of efficiency.
+                        </h6>
+                        <img src="imges/work-07.jpg" class="rounded-4 img-fluid" alt="">
+                        <div class="d-flex mt-3 justify-content-between text-light">
+                            <span class="d-flex align-items-center gap-2">
+                                <i class="fa-solid fs-5 fa-comment"></i>
+                                12.3k
+                            </span>
+                            <span class="d-flex align-items-center gap-2">
+                                <i class="fa-solid fs-5 fa-retweet"></i>
+                                14k
+                            </span>
+                            <span class="d-flex align-items-center gap-2">
+                                <i class="fa-solid fs-5 fa-heart"></i>
+                                14k
+                            </span>
+                            <span class="d-flex align-items-center gap-2">
+                                <i class="fa-solid fs-5 fa-share"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <p class="pt-3 border-top border-bottom border-dark-subtle bg-alt w-100"></p>
+                
+                <div class="text-light text-center mb-3">
+                    <h4>Thanks for viewing the page
+                        <i class="fa-solid fs-5 fa-heart"></i>
+                    </h4>
+                </div>
+                <p class="pt-3 border-top border-bottom border-dark-subtle bg-alt w-100"></p>
+                <div class="t w-100 text-center">
+                    <i class="text-color py-2 fa-solid fa-circle-notch fs-4 bg-main"></i>
+                </div>
+
+            </main>
+
+            <!-- right -->
+            <div class="col-lg-4 d-lg-block d-none pt-2">
+                <div class="bg-alt px-3 py-2 mb-2 rounded-pill">
+                    <i class="fa-solid text-white-50 fa-magnifying-glass"></i>
+                    <input type="text" class="bg-transparent border-0" placeholder="Search Twitter">
+                </div>
+                <ul class="nav mb-2 bg-alt rounded-4">
+                    <li class="nav-item fw-bold fs-6 text-light py-2 px-3 border-dark-subtle w-100 border-bottom">What's Happening</li>
+                    <li class="nav-item py-2 px-3 border-bottom border-dark-subtle w-100">
+                        <a href="#" class="p-0 fs-6 fw-bold text-light nav-link">
+                            #Palestine
+                            <p class="m-0 fw-light text-white-50 fs-6">26.7k Tweets</p>
+                        </a>
+                    </li>
+                    <li class="nav-item py-2 px-3 border-bottom border-dark-subtle w-100">
+                        <a href="#" class="p-0 fs-6 fw-bold text-light nav-link">
+                            #Palestine
+                            <p class="m-0 fw-light text-white-50 fs-6">26.7k Tweets</p>
+                        </a>
+                    </li>
+                    <li class="nav-item py-2 px-3 w-100">
+                        <a href="#" class="p-0 fs-6 fw-bold text-light nav-link">
+                            #Palestine
+                            <p class="m-0 fw-light text-white-50 fs-6">26.7k Tweets</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav bg-alt rounded-4">
+                    <li class="nav-item fw-bold fs-6 text-light px-3 py-2 px-3 border-dark-subtle w-100 border-bottom">Who to follow</li>
+                    <li class="d-flex justify-content-between align-items-center gap-2 nav-item py-3 px-3 border-bottom border-dark-subtle w-100">
+                        <div class="d-flex align-items-center nav-item gap-2 w-100">
+                            <img src="imges/team-1.png" class="img-fluid rounded-circle" alt="">
+                            <div class="text">
+                                <h6 class="text-light m-0">Amr Ghozy</h6>
+                                <p class="text-white-50 m-0 fs-6">@amrgo631</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn text-color border rounded-pill px-3 py-1">Follow</a>
+                    </li>
+                    <li class="d-flex justify-content-between align-items-center gap-2 nav-item py-3 px-3 border-bottom border-dark-subtle w-100">
+                        <div class="d-flex align-items-center nav-item gap-2 w-100">
+                            <img src="imges/team-1.png" class="img-fluid rounded-circle" alt="">
+                            <div class="text">
+                                <h6 class="text-light m-0">Amr Ghozy</h6>
+                                <p class="text-white-50 m-0 fs-6">@amrgo631</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn text-color border rounded-pill px-3 py-1">Follow</a>
+                    </li>
+                    
+                    <li class="nav-item p-3 w-100">
+                        <p class="card-text placeholder-glow">
+                            <span class="placeholder bg-light py-4 px-0 rounded-circle col-3"></span>
+                            <span class="placeholder bg-light col-5"></span>
+                            <span class="placeholder bg-light col-3"></span>
+                            <span class="placeholder bg-light col-6"></span>
+                            <span class="placeholder bg-light col-5"></span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>
